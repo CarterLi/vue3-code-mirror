@@ -113,10 +113,10 @@ lodash@^4.17.19:
   resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha1-tEqbYpe8tpjxxRo1RaKzs2jVnFI=
 
-native-event-bus@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/native-event-bus/download/native-event-bus-1.0.0.tgz?cache=0&sync_timestamp=1611208728672&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnative-event-bus%2Fdownload%2Fnative-event-bus-1.0.0.tgz#7a04740348786d76ffdf239b8127f64126f61ea1"
-  integrity sha1-egR0A0h4bXb/3yObgSf2QSb2HqE=
+native-event-bus@^1.0.0, native-event-bus@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/native-event-bus/download/native-event-bus-1.0.1.tgz#671f40e89fbd98d1cbc377526bd8522aadb8d134"
+  integrity sha1-Zx9A6J+9mNHLw3dSa9hSKq240TQ=
 
 resize-observer-polyfill@^1.5.1:
   version "1.5.1"
@@ -128,10 +128,10 @@ source-map@^0.6.1:
   resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
 
-theme-helper@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/theme-helper/-/theme-helper-0.0.1.tgz#ae079fb40eb4d77c9f3b6d07e2c711c4c5f58a64"
-  integrity sha512-lyUBjD78CncK/1zHAjocdzSpaiwkjqs+joE0bx9UdoSA+nNs1xu+C3J90lkhm5tn24AvtS1QqW8ggGl/eH4TCw==
+theme-helper@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npm.taobao.org/theme-helper/download/theme-helper-0.0.2.tgz?cache=0&sync_timestamp=1611217162044&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftheme-helper%2Fdownload%2Ftheme-helper-0.0.2.tgz#0e5b59533e47de2b15f37ecd8176a7959b4a5828"
+  integrity sha1-DltZUz5H3isV837NgXanlZtKWCg=
   dependencies:
     native-event-bus "^1.0.0"
 
@@ -147,13 +147,13 @@ tslib@^2.1.0:
 
 typescript@^4.1.3:
   version "4.1.3"
-  resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.1.3.tgz#519d582bd94cba0cf8934c7d8e8467e473f53bb7"
+  resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.1.3.tgz?cache=0&sync_timestamp=1611215616802&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftypescript%2Fdownload%2Ftypescript-4.1.3.tgz#519d582bd94cba0cf8934c7d8e8467e473f53bb7"
   integrity sha1-UZ1YK9lMugz4k0x9joRn5HP1O7c=
 
-vue3-component-base@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npm.taobao.org/vue3-component-base/download/vue3-component-base-0.0.1.tgz#4190fa418606fd0e04a0202f1ed3e3684540452c"
-  integrity sha1-QZD6QYYG/Q4EoCAvHtPjaEVARSw=
+vue3-component-base@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npm.taobao.org/vue3-component-base/download/vue3-component-base-0.0.2.tgz?cache=0&sync_timestamp=1611217140600&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue3-component-base%2Fdownload%2Fvue3-component-base-0.0.2.tgz#9b41212e09b92de8a44eb192b259e0d1fbe47d0c"
+  integrity sha1-m0EhLgm5LeikTrGSslng0fvkfQw=
   dependencies:
     lodash-es "^4.17.20"
     vue "^3.0.0"
