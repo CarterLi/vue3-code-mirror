@@ -69,8 +69,9 @@ let VCodeMirror = VCodeMirror_1 = class VCodeMirror extends VueComponentBase {
         VCodeMirror_1.ro.observe(this.$el);
     }
     beforeUnmount() {
-        this.cleanEvent?.();
-        VCodeMirror_1.ro?.unobserve(this.$el);
+        var _a, _b;
+        (_a = this.cleanEvent) === null || _a === void 0 ? void 0 : _a.call(this);
+        (_b = VCodeMirror_1.ro) === null || _b === void 0 ? void 0 : _b.unobserve(this.$el);
     }
     updateValue(value) {
         if (value === this.backupValue)
