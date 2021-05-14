@@ -12,7 +12,7 @@ export declare class VCodeMirror extends VueComponentBase {
     /** 代码字符串值 */
     readonly value: string;
     /** 语言，默认为json */
-    readonly mode: Record<string, any>;
+    readonly mode: CodeMirror.ModeSpec<unknown>;
     /** 是否只读 */
     readonly readonly: boolean;
     /** 是否折行 */

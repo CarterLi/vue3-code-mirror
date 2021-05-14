@@ -14,7 +14,7 @@ import { $theme } from 'theme-helper';
 
 import { Component, Inreactive, Prop, VueComponentBase, Watch } from 'vue3-component-base';
 
-const Events = [
+const Events: (keyof CodeMirror.EditorEventMap)[] = [
   /** 获得焦点时触发 */
   'focus',
   /** 失去焦点时触发 */
@@ -32,7 +32,7 @@ export class VCodeMirror extends VueComponentBase {
   /** 代码字符串值 */
   @Prop({ required: true }) readonly value: string;
   /** 语言，默认为json */
-  @Prop({ default: () => ({ name: 'javascript', json: true }) }) readonly mode: Record<string, any>;
+  @Prop({ default: () => ({ name: 'javascript', json: true }) }) readonly mode: CodeMirror.ModeSpec<unknown>;
   /** 是否只读 */
   @Prop() readonly readonly: boolean;
   /** 是否折行 */
