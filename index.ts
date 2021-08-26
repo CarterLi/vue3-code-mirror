@@ -32,7 +32,10 @@ export class VCodeMirror extends VueComponentBase {
   /** 代码字符串值 */
   @Prop({ required: true }) readonly value: string;
   /** 语言，默认为json */
-  @Prop({ default: () => ({ name: 'javascript', json: true }) }) readonly mode: CodeMirror.ModeSpec<unknown>;
+  @Prop({
+    default: () => ({ name: 'javascript', json: true }),
+    type: [String, Object],
+  }) readonly mode: string | CodeMirror.ModeSpec<unknown>;
   /** 是否只读 */
   @Prop() readonly readonly: boolean;
   /** 是否折行 */
@@ -42,7 +45,7 @@ export class VCodeMirror extends VueComponentBase {
   /** 是否自适应高度 */
   @Prop() readonly autoHeight: boolean;
 
-  $el: HTMLDivElement & { _component: VCodeMirror };
+  declare readonly $el: HTMLDivElement & { _component: VCodeMirror };
 
   @Inreactive editor: CodeMirror.Editor;
   @Inreactive backupValue: string;

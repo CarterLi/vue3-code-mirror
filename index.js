@@ -93,7 +93,10 @@ __decorate([
     __metadata("design:type", String)
 ], VCodeMirror.prototype, "value", void 0);
 __decorate([
-    Prop({ default: () => ({ name: 'javascript', json: true }) }),
+    Prop({
+        default: () => ({ name: 'javascript', json: true }),
+        type: [String, Object],
+    }),
     __metadata("design:type", Object)
 ], VCodeMirror.prototype, "mode", void 0);
 __decorate([

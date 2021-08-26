@@ -1,6 +1,6 @@
 {
   "name": "vue3-code-mirror",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "CodeMirror binding for Vue3",
   "main": "index.js",
   "module": "index.js",
@@ -12,16 +12,16 @@
     "build": "tsc -d -p ."
   },
   "dependencies": {
-    "codemirror": "^5.61.0",
+    "codemirror": "^5.62.3",
     "native-event-bus": "^1.0.1",
     "resize-observer-polyfill": "^1.5.1",
     "theme-helper": "^0.0.2",
-    "tslib": "^2.2.0",
-    "vue": "^3.0.9",
-    "vue3-component-base": "^0.0.6"
+    "tslib": "^2.3.1",
+    "vue": "^3.2.6",
+    "vue3-component-base": "^0.0.8"
   },
   "devDependencies": {
-    "@types/codemirror": "^5.60.0",
-    "typescript": "^4.2.4"
+    "@types/codemirror": "^5.60.2",
+    "typescript": "^4.3.5"
   }
 }
