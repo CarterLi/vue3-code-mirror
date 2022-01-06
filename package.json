@@ -1,6 +1,6 @@
 {
   "name": "vue3-code-mirror",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "CodeMirror binding for Vue3",
   "main": "index.js",
   "module": "index.js",
